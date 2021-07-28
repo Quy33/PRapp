@@ -97,7 +97,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppE-GN-ifB">
-                                <rect key="frame" x="20" y="194" width="374" height="68"/>
+                                <rect key="frame" x="186.5" y="438" width="41.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -106,10 +106,8 @@
                         <viewLayoutGuide key="safeArea" id="rkP-HY-5RN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ppE-GN-ifB" firstAttribute="top" secondItem="rkP-HY-5RN" secondAttribute="top" constant="150" id="KMx-Jo-2xL"/>
-                            <constraint firstItem="rkP-HY-5RN" firstAttribute="trailing" secondItem="ppE-GN-ifB" secondAttribute="trailing" constant="20" id="VhD-yI-jHe"/>
-                            <constraint firstItem="ppE-GN-ifB" firstAttribute="leading" secondItem="rkP-HY-5RN" secondAttribute="leading" constant="20" id="WyX-HV-aAd"/>
-                            <constraint firstItem="rkP-HY-5RN" firstAttribute="bottom" secondItem="ppE-GN-ifB" secondAttribute="bottom" constant="600" id="m78-wa-WWt"/>
+                            <constraint firstItem="ppE-GN-ifB" firstAttribute="centerY" secondItem="3AZ-H1-klT" secondAttribute="centerY" id="Ras-QX-WRb"/>
+                            <constraint firstItem="ppE-GN-ifB" firstAttribute="centerX" secondItem="3AZ-H1-klT" secondAttribute="centerX" id="yrm-Fe-ddC"/>
                         </constraints>
                     </view>
                     <connections>
