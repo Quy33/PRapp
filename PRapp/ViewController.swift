@@ -58,7 +58,6 @@ class ViewController: UIViewController {
         self.tableView.rx
             .modelSelected(Product.self)
             .bind{ item in
-                self.viewModel.items.accept(array)
                 let DetailVC = (self.storyboard?.instantiateViewController(identifier: "view"))! as DetailViewController
                 DetailVC.name = item.item
                 self.navigationController?.pushViewController(DetailVC, animated: true)
